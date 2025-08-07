@@ -20,6 +20,21 @@ body {
   background-color: #f8fafc;
 }
 
+/* ローディング表示 */
+.loading-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+}
+
+.loading-spinner {
+  font-size: 18px;
+  color: #667eea;
+  font-weight: 500;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
